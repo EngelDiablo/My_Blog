@@ -8,6 +8,16 @@ switch ($action) {
 	case 'about':
 		$page = './pages/about.php';
 		break;
+	case 'create':
+		$page = './pages/create.php';
+		break;
+	case 'shop':
+		$page = './pages/shop.php';
+		break;
+	case 'basket':
+		$page = './pages/basket.php';
+		break;	
+
 	default:
 		$page = './pages/404.php';
 		break;
